@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\Udmy\\CarBook\\Core\\CarBook.Application\\CarBook.Application.csproj",
+      "projectUniqueName": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\CarBook\\Core\\CarBook.Application\\CarBook.Application.csproj",
       "projectName": "CarBook.Application",
-      "projectPath": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\Udmy\\CarBook\\Core\\CarBook.Application\\CarBook.Application.csproj",
+      "projectPath": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\CarBook\\Core\\CarBook.Application\\CarBook.Application.csproj",
       "packagesPath": "C:\\Users\\ataku\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\Udmy\\CarBook\\Core\\CarBook.Application\\obj\\",
+      "outputPath": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\CarBook\\Core\\CarBook.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ataku\\OneDrive\\Masaüstü\\Udmy\\CarBook\\CarBook\\CarBook.Domain\\CarBook.Domain.csproj": {
-              "projectPath": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\Udmy\\CarBook\\CarBook\\CarBook.Domain\\CarBook.Domain.csproj"
+            "C:\\Users\\ataku\\OneDrive\\Masaüstü\\CarBook\\CarBook\\CarBook.Domain\\CarBook.Domain.csproj": {
+              "projectPath": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\CarBook\\CarBook\\CarBook.Domain\\CarBook.Domain.csproj"
             }
           }
         }
