@@ -17,10 +17,9 @@ namespace CarBook.WebApi.Controllers
         private readonly GetCarByIdCommandHandler _getCarByIdCommandHandler;
         private readonly GetCarCommandHandler _getCarCommandHandler;
         private readonly GetCarWithBrandQueryHandler _getCarWithBrandQueryHandler;
+        private readonly GetLast5CarWithBrandQueryHandler _getLast5CarWithBrandQueryHandler;
 
-        
-
-        public CarController(GetCarWithBrandQueryHandler getCarWithBrandQueryHandler,CreateCarCommandHandler createCommandHandler, UpdateCarCommandHandler updateCommandHandler, RemoveCarCommandHandler removeCommandHandler, GetCarByIdCommandHandler getCarByIdCommandHandler, GetCarCommandHandler getCarCommandHandler)
+        public CarController(CreateCarCommandHandler createCommandHandler, UpdateCarCommandHandler updateCommandHandler, RemoveCarCommandHandler removeCommandHandler, GetCarByIdCommandHandler getCarByIdCommandHandler, GetCarCommandHandler getCarCommandHandler, GetCarWithBrandQueryHandler getCarWithBrandQueryHandler, GetLast5CarWithBrandQueryHandler getLast5CarWithBrandQueryHandler)
         {
             _createCommandHandler = createCommandHandler;
             _updateCommandHandler = updateCommandHandler;
@@ -28,7 +27,9 @@ namespace CarBook.WebApi.Controllers
             _getCarByIdCommandHandler = getCarByIdCommandHandler;
             _getCarCommandHandler = getCarCommandHandler;
             _getCarWithBrandQueryHandler = getCarWithBrandQueryHandler;
+            _getLast5CarWithBrandQueryHandler = getLast5CarWithBrandQueryHandler;
         }
+
         [HttpGet]
         public async Task<IActionResult> BrandList()
         {
@@ -64,6 +65,12 @@ namespace CarBook.WebApi.Controllers
         {
             var values = _getCarWithBrandQueryHandler.Handle();
             return Ok(values);
+        }
+        [HttpGet("GetLast5CarWithBrand")]
+        public IActionResult GetLast5CarWithBrand()
+        {
+            var valuess = _getLast5CarWithBrandQueryHandler.Handle();
+            return Ok(valuess);
         }
     }
 }
