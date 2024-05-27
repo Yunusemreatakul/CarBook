@@ -1,0 +1,12 @@
+C:\Users\ataku\OneDrive\Masaüstü\CarBook\CarBook\Frontends\CarBook.Dto\bin\Debug\net8.0\CarBook.Dto.deps.json
+C:\Users\ataku\OneDrive\Masaüstü\CarBook\CarBook\Frontends\CarBook.Dto\bin\Debug\net8.0\CarBook.Dto.dll
+C:\Users\ataku\OneDrive\Masaüstü\CarBook\CarBook\Frontends\CarBook.Dto\bin\Debug\net8.0\CarBook.Dto.pdb
+C:\Users\ataku\OneDrive\Masaüstü\CarBook\CarBook\Frontends\CarBook.Dto\obj\Debug\net8.0\CarBook.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ataku\OneDrive\Masaüstü\CarBook\CarBook\Frontends\CarBook.Dto\obj\Debug\net8.0\CarBook.Dto.AssemblyInfoInputs.cache
+C:\Users\ataku\OneDrive\Masaüstü\CarBook\CarBook\Frontends\CarBook.Dto\obj\Debug\net8.0\CarBook.Dto.AssemblyInfo.cs
+C:\Users\ataku\OneDrive\Masaüstü\CarBook\CarBook\Frontends\CarBook.Dto\obj\Debug\net8.0\CarBook.Dto.csproj.CoreCompileInputs.cache
+C:\Users\ataku\OneDrive\Masaüstü\CarBook\CarBook\Frontends\CarBook.Dto\obj\Debug\net8.0\CarBook.Dto.sourcelink.json
+C:\Users\ataku\OneDrive\Masaüstü\CarBook\CarBook\Frontends\CarBook.Dto\obj\Debug\net8.0\CarBook.Dto.dll
+C:\Users\ataku\OneDrive\Masaüstü\CarBook\CarBook\Frontends\CarBook.Dto\obj\Debug\net8.0\refint\CarBook.Dto.dll
+C:\Users\ataku\OneDrive\Masaüstü\CarBook\CarBook\Frontends\CarBook.Dto\obj\Debug\net8.0\CarBook.Dto.pdb
+C:\Users\ataku\OneDrive\Masaüstü\CarBook\CarBook\Frontends\CarBook.Dto\obj\Debug\net8.0\ref\CarBook.Dto.dll
